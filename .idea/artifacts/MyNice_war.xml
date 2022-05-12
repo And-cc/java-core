@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="MyNice:war">
+    <output-path>$PROJECT_DIR$/Aemo2JavaWeb/MyNice/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>MyNice</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="MyNice.war">
+      <element id="artifact" artifact-name="MyNice:war exploded" />
+    </root>
+  </artifact>
+</component>

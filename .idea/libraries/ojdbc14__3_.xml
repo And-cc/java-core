@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ojdbc14 (3)">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/2022双体系/Aemo1OracleJdbc/libs/ojdbc14.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

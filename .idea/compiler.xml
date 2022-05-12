@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demo16LoginTemplate(HttpServlet&amp;Request)" />
+        <module name="SpringSecurity" />
+        <module name="demo20travel" />
+        <module name="demo28shiro" />
+        <module name="demo21webtest" />
+        <module name="demo24Redis" />
+        <module name="demo15Servlet" />
+        <module name="demo25TravelWeb" />
+        <module name="demo17ResponseVercode" />
+        <module name="demo18CookieAndSession" />
+        <module name="MyGood" />
+        <module name="demo22FilterAndListener" />
+        <module name="A_project" />
+        <module name="demo19VerCodePlus" />
+        <module name="demo23Jquery" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="A_project" target="1.8" />
+      <module name="demo15Servlet" target="1.8" />
+      <module name="Demo16Login" target="1.8" />
+      <module name="demo16LoginTemplate(HttpServlet&amp;Request)" target="1.8" />
+      <module name="demo17ResponseVercode" target="1.8" />
+      <module name="demo18CookieAndSession" target="1.8" />
+      <module name="demo19VerCodePlus" target="1.8" />
+      <module name="demo20travel" target="1.7" />
+      <module name="demo21webtest" target="1.8" />
+      <module name="demo22FilterAndListener" target="1.8" />
+      <module name="demo23Jquery" target="1.8" />
+      <module name="demo24Redis" target="1.8" />
+      <module name="demo25TravelWeb" target="1.8" />
+      <module name="demo25黑马旅游网" target="1.7" />
+      <module name="demo28shiro" target="1.8" />
+      <module name="demo28SpringSecurity" target="1.7" />
+      <module name="heima" target="1.8" />
+      <module name="MyGood" target="1.8" />
+      <module name="MyNice" target="1.7" />
+      <module name="SpringSecurity" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="A_project" options="-parameters" />
+      <module name="SpringSecurity" options="-parameters" />
+      <module name="demo28shiro" options="-parameters" />
+    </option>
+  </component>
+</project>

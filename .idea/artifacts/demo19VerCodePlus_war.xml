@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="demo19VerCodePlus:war">
+    <output-path>$PROJECT_DIR$/demo19VerCodePlus/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>demo19VerCodePlus</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="demo19VerCodePlus-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="demo19VerCodePlus:war exploded" />
+    </root>
+  </artifact>
+</component>

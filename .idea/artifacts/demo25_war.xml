@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="demo25黑马旅游网:war">
+    <output-path>$PROJECT_DIR$/demo25黑马旅游网/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>demo25黑马旅游网</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="demo25黑马旅游网-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="demo25黑马旅游网:war exploded" />
+    </root>
+  </artifact>
+</component>
