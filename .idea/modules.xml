@@ -2,12 +2,33 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/2020数据结构/2020数据结构.iml" filepath="$PROJECT_DIR$/2020数据结构/2020数据结构.iml" />
       <module fileurl="file://$PROJECT_DIR$/2021开发中心/2021开发中心.iml" filepath="$PROJECT_DIR$/2021开发中心/2021开发中心.iml" />
       <module fileurl="file://$PROJECT_DIR$/2022双体系凌云三部/2022双体系凌云三部.iml" filepath="$PROJECT_DIR$/2022双体系凌云三部/2022双体系凌云三部.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java-core.iml" filepath="$PROJECT_DIR$/.idea/Java-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2021开发中心/demo10Lambda表达式/demo10Lambda表达式.iml" filepath="$PROJECT_DIR$/2021开发中心/demo10Lambda表达式/demo10Lambda表达式.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2021开发中心/demo11IO流/demo11IO流.iml" filepath="$PROJECT_DIR$/2021开发中心/demo11IO流/demo11IO流.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2021开发中心/demo12JDBC/demo12JDBC.iml" filepath="$PROJECT_DIR$/2021开发中心/demo12JDBC/demo12JDBC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2021开发中心/demo13CSS&amp;HTML/demo13CSS&amp;HTML.iml" filepath="$PROJECT_DIR$/2021开发中心/demo13CSS&amp;HTML/demo13CSS&amp;HTML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2021开发中心/demo14JavaScript/demo14JavaScript.iml" filepath="$PROJECT_DIR$/2021开发中心/demo14JavaScript/demo14JavaScript.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2021开发中心/demo15Servlet/demo15Servlet.iml" filepath="$PROJECT_DIR$/2021开发中心/demo15Servlet/demo15Servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2021开发中心/demo16JSP/demo16JSP.iml" filepath="$PROJECT_DIR$/2021开发中心/demo16JSP/demo16JSP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2022双体系凌云三部/demo1寒假作业/demo1寒假作业.iml" filepath="$PROJECT_DIR$/2022双体系凌云三部/demo1寒假作业/demo1寒假作业.iml" />
       <module fileurl="file://$PROJECT_DIR$/2021开发中心/demo1对象与类/demo1对象与类.iml" filepath="$PROJECT_DIR$/2021开发中心/demo1对象与类/demo1对象与类.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2022双体系凌云三部/res/res.iml" filepath="$PROJECT_DIR$/2022双体系凌云三部/res/res.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2021开发中心/demo2继承/demo2继承.iml" filepath="$PROJECT_DIR$/2021开发中心/demo2继承/demo2继承.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2022双体系凌云三部/demo2课后作业/demo2课后作业.iml" filepath="$PROJECT_DIR$/2022双体系凌云三部/demo2课后作业/demo2课后作业.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2021开发中心/demo3接口/demo3接口.iml" filepath="$PROJECT_DIR$/2021开发中心/demo3接口/demo3接口.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2022双体系凌云三部/demo3相关练习/demo3相关练习.iml" filepath="$PROJECT_DIR$/2022双体系凌云三部/demo3相关练习/demo3相关练习.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2021开发中心/demo4常用类/demo4常用类.iml" filepath="$PROJECT_DIR$/2021开发中心/demo4常用类/demo4常用类.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2022双体系凌云三部/demo4趣味游戏/demo4趣味游戏.iml" filepath="$PROJECT_DIR$/2022双体系凌云三部/demo4趣味游戏/demo4趣味游戏.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2021开发中心/demo5集合/demo5集合.iml" filepath="$PROJECT_DIR$/2021开发中心/demo5集合/demo5集合.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2021开发中心/demo6数据结构/demo6数据结构.iml" filepath="$PROJECT_DIR$/2021开发中心/demo6数据结构/demo6数据结构.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2021开发中心/demo7Map集合/demo7Map集合.iml" filepath="$PROJECT_DIR$/2021开发中心/demo7Map集合/demo7Map集合.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2021开发中心/demo8异常/demo8异常.iml" filepath="$PROJECT_DIR$/2021开发中心/demo8异常/demo8异常.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2021开发中心/demo9多线程/demo9多线程.iml" filepath="$PROJECT_DIR$/2021开发中心/demo9多线程/demo9多线程.iml" />
       <module fileurl="file://$PROJECT_DIR$/2022双体系凌云三部/rest.iml" filepath="$PROJECT_DIR$/2022双体系凌云三部/rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2020数据结构/数据结构/数据结构.iml" filepath="$PROJECT_DIR$/2020数据结构/数据结构/数据结构.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2020数据结构/编程思想/编程思想.iml" filepath="$PROJECT_DIR$/2020数据结构/编程思想/编程思想.iml" />
     </modules>
   </component>
 </project>
