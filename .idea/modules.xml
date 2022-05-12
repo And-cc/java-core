@@ -3,52 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/2021开发中心/2021开发中心.iml" filepath="$PROJECT_DIR$/2021开发中心/2021开发中心.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2022双体系/2022双体系.iml" filepath="$PROJECT_DIR$/2022双体系/2022双体系.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2022双体系/A_project/A_project.iml" filepath="$PROJECT_DIR$/2022双体系/A_project/A_project.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2022双体系/Aemo0Test/Aemo0Test.iml" filepath="$PROJECT_DIR$/2022双体系/Aemo0Test/Aemo0Test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2022双体系/Aemo0双体作业/Aemo0双体作业.iml" filepath="$PROJECT_DIR$/2022双体系/Aemo0双体作业/Aemo0双体作业.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2022双体系/Aemo0双体课程/Aemo0双体课程.iml" filepath="$PROJECT_DIR$/2022双体系/Aemo0双体课程/Aemo0双体课程.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2022双体系/Aemo1OracleJdbc/Aemo1OracleJdbc.iml" filepath="$PROJECT_DIR$/2022双体系/Aemo1OracleJdbc/Aemo1OracleJdbc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2022双体系/Aemo2JavaWeb/Aemo2JavaWeb.iml" filepath="$PROJECT_DIR$/2022双体系/Aemo2JavaWeb/Aemo2JavaWeb.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2022双体系/AemoGames/AemoGames.iml" filepath="$PROJECT_DIR$/2022双体系/AemoGames/AemoGames.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2022双体系/Ex_YanQingYuan/Ex_YanQingYuan.iml" filepath="$PROJECT_DIR$/2022双体系/Ex_YanQingYuan/Ex_YanQingYuan.iml" />
-      <module fileurl="file://$PROJECT_DIR$/File/File.iml" filepath="$PROJECT_DIR$/File/File.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java核心技术.iml" filepath="$PROJECT_DIR$/Java核心技术.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MostCore/MostCore.iml" filepath="$PROJECT_DIR$/MostCore/MostCore.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2022双体系/Aemo2JavaWeb/MyGood/MyGood.iml" filepath="$PROJECT_DIR$/2022双体系/Aemo2JavaWeb/MyGood/MyGood.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2021开发中心/demo28SpringSecurity/SpringSecurity.iml" filepath="$PROJECT_DIR$/2021开发中心/demo28SpringSecurity/SpringSecurity.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2022双体系/demo0寒假作业/demo0寒假作业.iml" filepath="$PROJECT_DIR$/2022双体系/demo0寒假作业/demo0寒假作业.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MostCore/demo0数据结构/demo0数据结构.iml" filepath="$PROJECT_DIR$/MostCore/demo0数据结构/demo0数据结构.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MostCore/demo0编程思想/demo0编程思想.iml" filepath="$PROJECT_DIR$/MostCore/demo0编程思想/demo0编程思想.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2022双体系/demo0职场作业/demo0职场作业.iml" filepath="$PROJECT_DIR$/2022双体系/demo0职场作业/demo0职场作业.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2021开发中心/demo10Lambda表达式/demo10Lambda表达式.iml" filepath="$PROJECT_DIR$/2021开发中心/demo10Lambda表达式/demo10Lambda表达式.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2021开发中心/demo11JDBC1/demo11JDBC1.iml" filepath="$PROJECT_DIR$/2021开发中心/demo11JDBC1/demo11JDBC1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2021开发中心/demo12Css&amp;Html/demo12Css&amp;Html.iml" filepath="$PROJECT_DIR$/2021开发中心/demo12Css&amp;Html/demo12Css&amp;Html.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2021开发中心/demo13JavaScript/demo13JavaScript.iml" filepath="$PROJECT_DIR$/2021开发中心/demo13JavaScript/demo13JavaScript.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2021开发中心/demo14Bootstrap/demo14Bootstrap.iml" filepath="$PROJECT_DIR$/2021开发中心/demo14Bootstrap/demo14Bootstrap.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2021开发中心/demo15Servlet/demo15Servlet.iml" filepath="$PROJECT_DIR$/2021开发中心/demo15Servlet/demo15Servlet.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2021开发中心/demo16LoginTemplate(HttpServlet&amp;Request)/demo16LoginTemplate(HttpServlet&amp;Request).iml" filepath="$PROJECT_DIR$/2021开发中心/demo16LoginTemplate(HttpServlet&amp;Request)/demo16LoginTemplate(HttpServlet&amp;Request).iml" />
-      <module fileurl="file://$PROJECT_DIR$/2021开发中心/demo17ResponseVercode/demo17ResponseVercode.iml" filepath="$PROJECT_DIR$/2021开发中心/demo17ResponseVercode/demo17ResponseVercode.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2021开发中心/demo18CookieAndSession/demo18CookieAndSession.iml" filepath="$PROJECT_DIR$/2021开发中心/demo18CookieAndSession/demo18CookieAndSession.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2021开发中心/demo19VerCodePlus/demo19VerCodePlus.iml" filepath="$PROJECT_DIR$/2021开发中心/demo19VerCodePlus/demo19VerCodePlus.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2021开发中心/demo1对象与类/demo1对象与类.iml" filepath="$PROJECT_DIR$/2021开发中心/demo1对象与类/demo1对象与类.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2021开发中心/demo20travel/demo20travel.iml" filepath="$PROJECT_DIR$/2021开发中心/demo20travel/demo20travel.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2021开发中心/demo21webtest/demo21webtest.iml" filepath="$PROJECT_DIR$/2021开发中心/demo21webtest/demo21webtest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2021开发中心/demo22FilterAndListener/demo22FilterAndListener.iml" filepath="$PROJECT_DIR$/2021开发中心/demo22FilterAndListener/demo22FilterAndListener.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2021开发中心/demo23Jquery/demo23Jquery.iml" filepath="$PROJECT_DIR$/2021开发中心/demo23Jquery/demo23Jquery.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2021开发中心/demo24Redis/demo24Redis.iml" filepath="$PROJECT_DIR$/2021开发中心/demo24Redis/demo24Redis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2021开发中心/demo25TravelWeb/demo25TravelWeb.iml" filepath="$PROJECT_DIR$/2021开发中心/demo25TravelWeb/demo25TravelWeb.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2021开发中心/demo27jwt/demo27jwt.iml" filepath="$PROJECT_DIR$/2021开发中心/demo27jwt/demo27jwt.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2021开发中心/demo28shiro/demo28shiro.iml" filepath="$PROJECT_DIR$/2021开发中心/demo28shiro/demo28shiro.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2021开发中心/demo2继承/demo2继承.iml" filepath="$PROJECT_DIR$/2021开发中心/demo2继承/demo2继承.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2021开发中心/demo3接口/demo3接口.iml" filepath="$PROJECT_DIR$/2021开发中心/demo3接口/demo3接口.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2021开发中心/demo4常用类/demo4常用类.iml" filepath="$PROJECT_DIR$/2021开发中心/demo4常用类/demo4常用类.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2021开发中心/demo5集合/demo5集合.iml" filepath="$PROJECT_DIR$/2021开发中心/demo5集合/demo5集合.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2021开发中心/demo6数据结构/demo6数据结构.iml" filepath="$PROJECT_DIR$/2021开发中心/demo6数据结构/demo6数据结构.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2021开发中心/demo7Map集合/demo7Map集合.iml" filepath="$PROJECT_DIR$/2021开发中心/demo7Map集合/demo7Map集合.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2021开发中心/demo8异常/demo8异常.iml" filepath="$PROJECT_DIR$/2021开发中心/demo8异常/demo8异常.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2021开发中心/demo9多线程/demo9多线程.iml" filepath="$PROJECT_DIR$/2021开发中心/demo9多线程/demo9多线程.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MostCore/mean01lol案例/mean01lol案例.iml" filepath="$PROJECT_DIR$/MostCore/mean01lol案例/mean01lol案例.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java-core.iml" filepath="$PROJECT_DIR$/.idea/Java-core.iml" />
     </modules>
   </component>
 </project>

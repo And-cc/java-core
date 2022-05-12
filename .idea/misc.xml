@@ -1,47 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$/2021开发中心/demo15Servlet" />
-    <file type="web" url="file://$PROJECT_DIR$/2021开发中心/demo16LoginTemplate(HttpServlet&amp;Request)" />
-    <file type="web" url="file://$PROJECT_DIR$/2021开发中心/demo17ResponseVercode" />
-    <file type="web" url="file://$PROJECT_DIR$/2021开发中心/demo18CookieAndSession" />
-    <file type="web" url="file://$PROJECT_DIR$/2021开发中心/demo19VerCodePlus" />
-    <file type="web" url="file://$PROJECT_DIR$/2021开发中心/demo20travel" />
-    <file type="web" url="file://$PROJECT_DIR$/2021开发中心/demo21webtest" />
-    <file type="web" url="file://$PROJECT_DIR$/2021开发中心/demo22FilterAndListener" />
-    <file type="web" url="file://$PROJECT_DIR$/2021开发中心/demo23Jquery" />
-    <file type="web" url="file://$PROJECT_DIR$/2021开发中心/demo24Redis" />
-    <file type="web" url="file://$PROJECT_DIR$/2021开发中心/demo25TravelWeb" />
-    <file type="web" url="file://$PROJECT_DIR$/2022双体系/Aemo2JavaWeb/MyGood" />
-    <file type="web" url="file://$PROJECT_DIR$/2022双体系/Aemo2JavaWeb/MyNice" />
-    <file type="web" url="file://$PROJECT_DIR$/demo25黑马旅游网" />
-    <file type="web" url="file://$PROJECT_DIR$/heima" />
-  </component>
-  <component name="JavaScriptSettings">
-    <option name="languageLevel" value="JSX" />
-  </component>
-  <component name="MavenProjectsManager">
-    <option name="originalFiles">
-      <list>
-        <option value="$PROJECT_DIR$/demo15Servlet/pom.xml" />
-        <option value="$PROJECT_DIR$/demo16LoginTemplate/pom.xml" />
-        <option value="$PROJECT_DIR$/demo17ResponseVercode/pom.xml" />
-        <option value="$PROJECT_DIR$/demo18CookieAndSession/pom.xml" />
-        <option value="$PROJECT_DIR$/demo19VerCodePlus/pom.xml" />
-        <option value="$PROJECT_DIR$/demo20travel/pom.xml" />
-        <option value="$PROJECT_DIR$/demo21webtest/pom.xml" />
-        <option value="$PROJECT_DIR$/demo22FilterAndListener/pom.xml" />
-        <option value="$PROJECT_DIR$/demo23Jquery/pom.xml" />
-        <option value="$PROJECT_DIR$/demo24Redis/pom.xml" />
-        <option value="$PROJECT_DIR$/demo25TravelWeb/pom.xml" />
-        <option value="$PROJECT_DIR$/SpringSecurity/pom.xml" />
-        <option value="$PROJECT_DIR$/demo28SpringSecurity/pom.xml" />
-        <option value="$PROJECT_DIR$/Aemo2JavaWeb/MyGood/pom.xml" />
-        <option value="$PROJECT_DIR$/A_project/pom.xml" />
-        <option value="$PROJECT_DIR$/demo28shiro/pom.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
