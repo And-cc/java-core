@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/2021开发中心/2021开发中心.iml" filepath="$PROJECT_DIR$/2021开发中心/2021开发中心.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2022双体系凌云三部/2022双体系凌云三部.iml" filepath="$PROJECT_DIR$/2022双体系凌云三部/2022双体系凌云三部.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java-core.iml" filepath="$PROJECT_DIR$/.idea/Java-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2022双体系凌云三部/res/res.iml" filepath="$PROJECT_DIR$/2022双体系凌云三部/res/res.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2022双体系凌云三部/rest.iml" filepath="$PROJECT_DIR$/2022双体系凌云三部/rest.iml" />
     </modules>
   </component>
 </project>
