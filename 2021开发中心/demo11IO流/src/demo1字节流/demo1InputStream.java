@@ -13,5 +13,8 @@ public class demo1InputStream {
         //IOException:大部分io流都会抛出该异常
         System.out.println("你好");
     }
+    public void run(){
+
+    }
 
 }
