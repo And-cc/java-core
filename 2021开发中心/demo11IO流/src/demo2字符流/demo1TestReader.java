@@ -22,6 +22,7 @@ public class demo1TestReader {
     public void test() throws IOException {
         FileReader reader = new FileReader(file);
         int read = reader.read();
+        //结束时返回-1
         while(read !=-1){
             System.out.print((char)read+"\t\t");
             read=reader.read();
@@ -59,6 +60,9 @@ public class demo1TestReader {
         }
     }
 
+    /**
+     * 每次读取五个字符
+     */
     @Test
     public void test4(){
         FileReader fileReader=null;

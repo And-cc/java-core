@@ -40,4 +40,40 @@ public class demo3ReaderWriter {
             }
         }
     }
+
+    /**
+     * 追加版本
+     */
+    @Test
+    public void ReaderToWriter(){
+        FileReader fr=null;
+        FileWriter fw=null;
+        try{
+            fr=new FileReader(reader);
+            fw=new FileWriter(writer,true);//追加格式
+            char[] cbuf=new char[5];
+            int len;
+            while ((len=fr.read(cbuf))!=-1){
+                //每次写出len个字符
+                fw.write(cbuf,0,len);
+            }
+        }catch (IOException e){
+            e.printStackTrace();
+        }finally {
+            if (fr!=null){
+                try {
+                    fr.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+            if (fw!=null){
+                try {
+                    fw.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
 }
