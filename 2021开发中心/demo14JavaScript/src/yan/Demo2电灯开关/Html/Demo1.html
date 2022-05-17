@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>电灯开关</title>
+</head>
+
+<style>
+    img{
+        width: 500px;
+        height: 500px;
+    }
+</style>
+<body>
+     <img id="off" src="../Css/off.jpg"> 
+
+</body>
+</html>
+
+<script>
+    /*
+    1.获取图片对象
+    2.绑定单机事件
+    3.每次点击切换图片(off--->on    on--->off)
+     */
+
+    var off = document.getElementById("off");
+    var flag=false;
+    off.onclick=function (){
+        if (flag){
+            off.src="../Css/off.jpg";
+            flag=false;
+        }else {
+            off.src="../Css/on.jpg";
+            flag=true;
+        }
+    }
+
+</script>

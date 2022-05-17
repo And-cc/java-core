@@ -1,0 +1,80 @@
+    body{
+        background: url("../Images/back.jpg") no-repeat center;
+    }
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    .rg_layout{
+        width: 900px;
+        height: 500px;
+        border: 9px solid #EEEEEE;
+        background-color: white;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .rg_left{
+        /*border: 1px solid yellow;*/
+        float: left;
+        margin: 15px;
+    }
+    .rg_left >p:first-child{
+        color: #ffd026;
+        font-size: 20px;
+    }
+    .rg_left >p:last-child{
+        color: #a6a6a6;
+        font-size: 20px;
+    }
+
+
+    .rg_center{
+        border: 1px solid yellow;
+        float: left;
+        width: 450px;
+    }
+    .td_left{
+        width: 100px;
+        text-align: right;
+        height: 45px;
+    }
+    .td_right{
+        padding-left: 50px;
+    }
+    #username,#password,#email,#name,#tel,#checkcode,#birthday{
+        width: 251px;
+        height: 32px;
+        border: 1px solid #a6a6a6;
+        border-radius: 5px;
+        padding-left: 10px;
+    }
+    #checkcode{
+        width: 121px;
+    }
+    #checkcodeimage{
+        vertical-align: middle;
+        height: 32px;
+        width: 120px;
+    }
+    #submit{
+        width: 150px;
+        height: 40px;
+        background-color: #ffd026;
+        border: 1px solid;
+    }
+
+
+
+    .rg_right{
+        /*border: 1px solid yellow;*/
+        float: right;
+        margin: 15px;
+    }
+    .rg_right >p:first-child{
+        font-size: 15px;
+    }
+    .rg_right p a{
+         color: pink;
+
+    }
