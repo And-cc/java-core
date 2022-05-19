@@ -1,4 +1,4 @@
-package List;
+package collection.List;
 
 /**
  * @Author: yqy

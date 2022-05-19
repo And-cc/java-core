@@ -113,29 +113,8 @@ public class HeroNode {
     }
 
     public void delNode(int no){
-        if ()
+
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
