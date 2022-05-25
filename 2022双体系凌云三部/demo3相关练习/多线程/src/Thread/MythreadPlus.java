@@ -6,7 +6,7 @@ package Thread;
  * @Description:
  */
 public class MythreadPlus extends Thread{
-    private static int number=10;
+    private static int number=100;
     @Override
     public void run() {
         boolean flag=true;
@@ -17,14 +17,15 @@ public class MythreadPlus extends Thread{
              */
             synchronized (MythreadPlus.class){
                 if (number>0){
-                    number--;
-                    System.out.println(Thread.currentThread().getName()+"买了一张");
-                    System.out.println("还剩"+number+"张");
-                    try {
+                    /*try {
                         Thread.sleep(3);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
-                    }
+                    }*/
+                    number--;
+                    System.out.println(Thread.currentThread().getName()+"买了一张");
+                    System.out.println("还剩"+number+"张");
+
                 }  else {
                     flag=false;
                 }
