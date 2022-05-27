@@ -16,7 +16,7 @@ public class Ticket implements Runnable{
     private final CountDownLatch countDownLatch;
 
     public Ticket(int n, CountDownLatch countDownLatch) {
-        this.n = n;
+        this.n=n;
         this.countDownLatch = countDownLatch;
     }
     @Override
