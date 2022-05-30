@@ -42,9 +42,10 @@ public class Kidney {
     public void setPrice(double price) {
         this.price = price;
     }
+
     @Override
     public String toString() {
-        return number+"只"+name+"仅售"+price+"￥" ;
+        return number + "只" + name + "仅售" + price + "￥";
     }
 
     @Override

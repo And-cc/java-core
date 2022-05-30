@@ -9,7 +9,7 @@ import org.junit.Test;
  */
 public class Run {
     @Test
-    public void test(){
+    public void test() {
         MyThread thread = new MyThread();
         thread.setName("分线程");
         thread.setPriority(Thread.MAX_PRIORITY);
@@ -18,8 +18,8 @@ public class Run {
         Thread.currentThread().setName("主线程");
         Thread.currentThread().setPriority(Thread.MIN_PRIORITY);
         for (int i = 0; i < 10; i++) {
-            if (i%2!=0){
-                System.out.println(Thread.currentThread().getName()+"----"+i+"\t\t\t\t"+Thread.currentThread().getPriority());
+            if (i % 2 != 0) {
+                System.out.println(Thread.currentThread().getName() + "----" + i + "\t\t\t\t" + Thread.currentThread().getPriority());
             }
         }
     }

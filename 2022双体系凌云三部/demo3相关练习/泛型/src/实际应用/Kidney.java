@@ -5,7 +5,7 @@ package 实际应用;
  * @Date: 2022/05/16/21:55
  * @Description:
  */
-public class Kidney implements Comparable<Kidney>{
+public class Kidney implements Comparable<Kidney> {
     private String name;
     private Integer price;
     private Integer number;
@@ -52,7 +52,7 @@ public class Kidney implements Comparable<Kidney>{
 
     @Override
     public String toString() {
-        return type+"的"+number+"只"+name+"     售价仅为"+price+"￥";
+        return type + "的" + number + "只" + name + "     售价仅为" + price + "￥";
     }
 
     @Override
@@ -79,16 +79,16 @@ public class Kidney implements Comparable<Kidney>{
 
     @Override
     public int compareTo(Kidney o) {
-        if (this.number!=o.getNumber()){
-            return this.getNumber()-o.getNumber();
-        }else {
-            if (this.getPrice()!=o.getPrice()){
-                if (this.getPrice()>o.getPrice()){
+        if (this.number != o.getNumber()) {
+            return this.getNumber() - o.getNumber();
+        } else {
+            if (this.getPrice() != o.getPrice()) {
+                if (this.getPrice() > o.getPrice()) {
                     return 1;
-                }else {
+                } else {
                     return -1;
                 }
-            }else {
+            } else {
                 return this.getName().compareTo(o.name);
             }
         }

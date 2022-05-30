@@ -5,7 +5,7 @@ package Conllections;
  * @Date: 2022/05/17/15:04
  * @Description:
  */
-public class Kidney implements Comparable<Kidney>{
+public class Kidney implements Comparable<Kidney> {
     private String name;
     private int number;
     private double price;
@@ -42,22 +42,24 @@ public class Kidney implements Comparable<Kidney>{
     public void setPrice(double price) {
         this.price = price;
     }
+
     @Override
     public String toString() {
-        return number+"只"+name+"仅售"+price+"￥" ;
+        return number + "只" + name + "仅售" + price + "￥";
     }
+
     @Override
     public int compareTo(Kidney o) {
-        if (this.getPrice()!=o.getPrice()){
-            if (this.getPrice()>o.getPrice()){
+        if (this.getPrice() != o.getPrice()) {
+            if (this.getPrice() > o.getPrice()) {
                 return 1;
-            }else {
+            } else {
                 return -1;
             }
-        }else {
-            if (this.getNumber()!=o.getNumber()){
-                return this.getNumber()-o.getNumber();
-            }else {
+        } else {
+            if (this.getNumber() != o.getNumber()) {
+                return this.getNumber() - o.getNumber();
+            } else {
                 return this.getName().compareTo(o.getName());
             }
         }

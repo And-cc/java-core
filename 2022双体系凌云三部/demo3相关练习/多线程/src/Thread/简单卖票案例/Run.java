@@ -9,7 +9,7 @@ import org.junit.Test;
  */
 public class Run {
     @Test
-    public void test(){
+    public void test() {
         Window window1 = new Window();
         Window window2 = new Window();
         Window window3 = new Window();

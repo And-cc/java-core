@@ -9,7 +9,7 @@ import org.junit.Test;
  */
 public class Run {
     @Test
-    public void test(){
+    public void test() {
 
     }
 }

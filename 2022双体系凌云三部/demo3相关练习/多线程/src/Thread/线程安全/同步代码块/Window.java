@@ -15,18 +15,18 @@ public class Window implements Runnable {
           但是也有要求，就是多个线程必须共用同一个锁。
         */
         while (true) {
-           synchronized (this) {
-               if (ticket > 0) {
+            synchronized (this) {
+                if (ticket > 0) {
                     try {
                         Thread.sleep(20);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
-                   System.out.println(Thread.currentThread().getName() + "买了一张，还剩" + --ticket);
-               } else {
-                   break;
-               }
-           }
+                    System.out.println(Thread.currentThread().getName() + "买了一张，还剩" + --ticket);
+                } else {
+                    break;
+                }
+            }
         }
     }
 }

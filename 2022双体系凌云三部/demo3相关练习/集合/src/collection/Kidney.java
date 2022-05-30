@@ -5,7 +5,7 @@ package collection;
  * @Date: 2022/05/17/15:04
  * @Description:
  */
-public class Kidney{
+public class Kidney {
     private String name;
     private int number;
     private double price;
@@ -42,9 +42,10 @@ public class Kidney{
     public void setPrice(double price) {
         this.price = price;
     }
+
     @Override
     public String toString() {
-        return number+"只"+name+"仅售"+price+"￥" ;
+        return number + "只" + name + "仅售" + price + "￥";
     }
 
 }

@@ -7,10 +7,10 @@ package Thread.线程安全.同步代码块;
  */
 public class Run {
     public static void main(String[] args) {
-        Window window=new Window();
-        Thread t1=new Thread(window);
-        Thread t2=new Thread(window);
-        Thread t3=new Thread(window);
+        Window window = new Window();
+        Thread t1 = new Thread(window);
+        Thread t2 = new Thread(window);
+        Thread t3 = new Thread(window);
 
         t1.setName("窗口一：");
         t2.setName("窗口二：");

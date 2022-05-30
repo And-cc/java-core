@@ -6,10 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo1随机点名" target="1.7" />
+      <module name="eachti" target="1.8" />
+      <module name="spirng" target="1.8" />
+      <module name="spring" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eachti" options="-parameters" />
+    </option>
   </component>
 </project>

@@ -6,7 +6,7 @@ package collection.Set.TreeSet;
  * @Description: hashcode和equals要一起重写，如果只有equals,也是无法比较的
  */
 public class Kidney implements Comparable<Kidney> {
-    private String  name;
+    private String name;
     private Integer price;
 
     public Kidney(String name, Integer price) {
@@ -32,13 +32,14 @@ public class Kidney implements Comparable<Kidney> {
 
     @Override
     public String toString() {
-        return name+"仅售"+price+"园";
+        return name + "仅售" + price + "园";
     }
+
     @Override
     public int compareTo(Kidney o) {
-        if (this.getPrice()!=o.getPrice()){
-            return this.getPrice()-o.getPrice();
-        }else {
+        if (this.getPrice() != o.getPrice()) {
+            return this.getPrice() - o.getPrice();
+        } else {
             return this.getName().compareTo(o.getName());
         }
     }

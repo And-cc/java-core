@@ -31,8 +31,9 @@ public class Generic<T> {
                 "item=" + item +
                 '}';
     }
-    public static  <E> List<E> copyArray(E[] e){
-        List<E> list=new ArrayList<>();
+
+    public static <E> List<E> copyArray(E[] e) {
+        List<E> list = new ArrayList<>();
         for (E e1 : e) {
             list.add(e1);
         }

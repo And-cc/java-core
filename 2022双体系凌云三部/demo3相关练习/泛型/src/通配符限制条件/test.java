@@ -10,11 +10,11 @@ import java.util.List;
  */
 public class test {
     public static void main(String[] args) {
-        List<? extends Person> list1=new ArrayList<>();
-        List<? super Person> list2=new ArrayList<>();
-        List<Student> students=new ArrayList<>();
-        List<Person> people=new ArrayList<>();
-        List<Object> objects=new ArrayList<>();
+        List<? extends Person> list1 = new ArrayList<>();
+        List<? super Person> list2 = new ArrayList<>();
+        List<Student> students = new ArrayList<>();
+        List<Person> people = new ArrayList<>();
+        List<Object> objects = new ArrayList<>();
 
         /*list1=students;
         list1=people;

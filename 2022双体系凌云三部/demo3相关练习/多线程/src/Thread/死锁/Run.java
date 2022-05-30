@@ -7,13 +7,13 @@ package Thread.死锁;
  */
 public class Run {
     public static void main(String[] args) {
-        StringBuffer str1=new StringBuffer();
-        StringBuffer str2=new StringBuffer();
+        StringBuffer str1 = new StringBuffer();
+        StringBuffer str2 = new StringBuffer();
 
-        new Thread(){
+        new Thread() {
             @Override
             public void run() {
-                synchronized (str1){
+                synchronized (str1) {
                     str1.append("A");
                     str2.append("B");
 
@@ -22,7 +22,7 @@ public class Run {
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
-                    synchronized (str2){
+                    synchronized (str2) {
                         str1.append("a");
                         str2.append("b");
                         System.out.println(str1);
@@ -35,7 +35,7 @@ public class Run {
         new Thread(new Runnable() {
             @Override
             public void run() {
-                synchronized (str2){
+                synchronized (str2) {
                     str1.append("C");
                     str2.append("D");
 
@@ -44,7 +44,7 @@ public class Run {
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
-                    synchronized (str1){
+                    synchronized (str1) {
                         str1.append("c");
                         str2.append("d");
                         System.out.println(str1);

@@ -13,14 +13,14 @@ import java.util.Set;
  */
 public class Run {
     /***
-    * @Author: yqy
-    * @Date: 2022/5/18
-    * @Description:
+     * @Author: yqy
+     * @Date: 2022/5/18
+     * @Description:
      * * String类型基本测试，因为set是一个接口，所以我们暂时用hashset实现类来测试
-    */
+     */
     @Test
-    public void test(){
-        Set<String> set=new HashSet<>();
+    public void test() {
+        Set<String> set = new HashSet<>();
         //添加
         set.add("小米");
         set.add("华为");
@@ -41,28 +41,28 @@ public class Run {
         }
         //迭代器遍历
         Iterator<String> iterator = set.iterator();
-        while (iterator.hasNext()){
+        while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
 
         //判断
         boolean b = set.contains("小米");
         boolean empty = set.isEmpty();
-        System.out.println("是否有小米呢？"+b);
-        System.out.println("是否为空呢？"+empty);
+        System.out.println("是否有小米呢？" + b);
+        System.out.println("是否为空呢？" + empty);
     }
 
     /***
-    * @Author: yqy
-    * @Date: 2022/5/18
-    * @Description: 对象数据类型基本测试
-    */
+     * @Author: yqy
+     * @Date: 2022/5/18
+     * @Description: 对象数据类型基本测试
+     */
     @Test
-    public void test2(){
-        Set<Kidney> ks=new HashSet<>();
-        Kidney k1=new Kidney("水桶腰子",88);
-        Kidney k2=new Kidney("金刚腰子",66);
-        Kidney k3=new Kidney("砖石腰子",89);
+    public void test2() {
+        Set<Kidney> ks = new HashSet<>();
+        Kidney k1 = new Kidney("水桶腰子", 88);
+        Kidney k2 = new Kidney("金刚腰子", 66);
+        Kidney k3 = new Kidney("砖石腰子", 89);
 
         ks.add(k1);
         ks.add(k2);
@@ -80,12 +80,12 @@ public class Run {
 
         System.out.println("删掉了吗？？？");
         //删除
-        ks.remove(new Kidney("水桶腰子",88));//这是可以删掉的，因为重写了hashcode和equals方法，判断出来是同一对象
+        ks.remove(new Kidney("水桶腰子", 88));//这是可以删掉的，因为重写了hashcode和equals方法，判断出来是同一对象
         ks.remove(k2);
 
         //iterator遍历
         Iterator<Kidney> iterator = ks.iterator();
-        while (iterator.hasNext()){
+        while (iterator.hasNext()) {
             System.out.println(iterator.next().toString());
         }
 

@@ -11,14 +11,15 @@ public class Kidney {
      */
 
     //腰子库存
-    private int k_num=0;
+    private int k_num = 0;
+
     //噶腰子方法
-    public  synchronized void karma() {
-        if (k_num<20){
+    public synchronized void karma() {
+        if (k_num < 20) {
             k_num++;
-            System.out.println(Thread.currentThread().getName()+"目标20个腰子，目前在噶第"+k_num+"个");
+            System.out.println(Thread.currentThread().getName() + "目标20个腰子，目前在噶第" + k_num + "个");
             notify();
-        }else {
+        } else {
             try {
                 wait();
             } catch (InterruptedException e) {
@@ -26,13 +27,14 @@ public class Kidney {
             }
         }
     }
+
     //安装腰子方法
-    public synchronized   void install() {
-        if (k_num>0){
-            System.out.println(Thread.currentThread().getName()+"目前在安装第"+k_num+"个");
+    public synchronized void install() {
+        if (k_num > 0) {
+            System.out.println(Thread.currentThread().getName() + "目前在安装第" + k_num + "个");
             k_num--;
             notify();
-        }else {
+        } else {
             try {
                 wait();
             } catch (InterruptedException e) {

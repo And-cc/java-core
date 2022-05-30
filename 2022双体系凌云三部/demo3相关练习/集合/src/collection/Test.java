@@ -13,8 +13,9 @@ public class Test {
     public static void main(String[] args) {
         collectionTest();
     }
-    private static void collectionTest(){
-        Collection collection=new ArrayList<>();
+
+    private static void collectionTest() {
+        Collection collection = new ArrayList<>();
 
         //添加
         collection.add("苹果");
@@ -31,7 +32,7 @@ public class Test {
 
         //遍历
         Iterator iterator = collection.iterator();
-        while (iterator.hasNext()){
+        while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
 
@@ -42,7 +43,8 @@ public class Test {
         //判断是否包含
         System.out.println(collection.contains("苹果"));
     }
-    private static void kidneyCollection(){
+
+    private static void kidneyCollection() {
 
     }
 }

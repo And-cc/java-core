@@ -9,13 +9,13 @@ import org.junit.Test;
  */
 public class Run {
     @Test
-    public void test(){
+    public void test() {
         MyRunable runable = new MyRunable();
         /**
          * runnable接口实现的要放到thread里，
          * 调用thread.start才能执行
          */
-        Thread thread=new Thread(runable);
+        Thread thread = new Thread(runable);
         thread.start();
     }
 }

@@ -5,7 +5,7 @@ package 账户存钱案例;
  * @Date: 2022/05/25/14:33
  * @Description:
  */
-public class Customer implements Runnable{
+public class Customer implements Runnable {
     private Account account;
 
     public Customer(Account account) {
@@ -14,7 +14,7 @@ public class Customer implements Runnable{
 
     @Override
     public void run() {
-        for (int i = 0; i <3; i++) {
+        for (int i = 0; i < 3; i++) {
            /* account.deposit(1000);
             张三存钱成功===》余额为：2100.0
             李四存钱成功===》余额为：2100.0

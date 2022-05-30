@@ -6,7 +6,7 @@ package collection.Set;
  * @Description: hashcode和equals要一起重写，如果只有equals,也是无法比较的
  */
 public class Kidney {
-    private String  name;
+    private String name;
     private Integer price;
 
     @Override
@@ -46,7 +46,7 @@ public class Kidney {
 
     @Override
     public String toString() {
-        return name+"仅售"+price+"园";
+        return name + "仅售" + price + "园";
     }
 
     public void setPrice(Integer price) {

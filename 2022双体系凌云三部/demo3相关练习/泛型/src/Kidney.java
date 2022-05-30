@@ -50,7 +50,7 @@ public class Kidney {
 
     @Override
     public String toString() {
-        return type+"的"+number+"只"+name+"     售价仅为"+price+"￥";
+        return type + "的" + number + "只" + name + "     售价仅为" + price + "￥";
     }
 
 

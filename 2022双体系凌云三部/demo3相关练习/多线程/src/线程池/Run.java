@@ -10,7 +10,7 @@ import java.util.concurrent.Executors;
  */
 public class Run {
     public static void main(String[] args) {
-        ExecutorService service= Executors.newFixedThreadPool(10);
+        ExecutorService service = Executors.newFixedThreadPool(10);
         /*service.execute();//适合适用于Runnable
         service.submit();//适合适用于callable*/
         service.execute(new MyService());
